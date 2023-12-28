@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 65px;
+    width: 62px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .logo {
+    width: 200px;
+    height: auto;
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #35df8f;
+    padding: 10px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #999;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("outside.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ;
+
+}
+
+/* .banner-about{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("outside.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+} */
+.home-p {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    background-color: #999;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about {
+    background-color: rgb(194, 187, 187);
+}
+
+.card {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: #999;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(194, 187, 187);
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.end {
+    background-color: rgb(216, 103, 103);
+    font-size: 20px;
+    padding: 30px;
+}
